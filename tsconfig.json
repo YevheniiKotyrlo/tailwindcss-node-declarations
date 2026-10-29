@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": false,
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "types": ["node"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmit": true
+  },
+  "files": ["index.ts"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-node-declarations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc -p tsconfig.json",
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/node": "0.0.0-insiders.8cc0551",
+    "tailwindcss": "0.0.0-insiders.8cc0551"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2"
+  }
+}
